@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Improving Call Center Performance with Power BI</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload" style="background-color:#F6F4F2;" >
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/Profile Pic.jpg" alt=""></span>
+					<h2 id="logo" style="font-size: 2em;"><a href="index.html">Adrian Clark M. Dela Cruz</a></h2>
+					<p style="color:#FFFFFF">Turning raw data into
+						real-world solutions</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html#two">How can I be of service?</a></li>
+						<li><a href="index.html#one">About</a></li>
+						<li><a href="index.html#three">Personal Projects</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a target="_blank" href="https://www.linkedin.com/in/adrian-clark-dela-cruz-623870258/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a target="_blank" href="https://github.com/adrianclarkdelacruz" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a target="_blank" href="mailto:adrianclark.delacruz.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper" style="background-color:#F6F4F2;">
+
+				<!-- Main -->
+					<div id="main" >
+
+						<!-- One -->
+						<section class="image fit" >
+							<div data-position="center">
+								<img src="images/Website Banner.png" alt="" />
+							</div>
+							<div class="container"> 
+								<h2 style="color:#425664;">Improving Call Center Performance with Power BI</h2>
+								
+								<h1 style="font-size: 1.5em;color:#425664">Background</h1>
+
+								<p class="entry"> This dashboard was created in order to demonstrate my skills in data analysis using call center data. The goal was to showcase 
+									my ability to provide valuable insights for informed decision-making by policy/decision-makers within call center companies.
+								</p>
+								<p class="entry">
+									The data set used for this dashboard was sourced from Enterprise DNA and the challenged was to create a report that met the specific requirements 
+									of EDNA's Call Centers. The resulting dashboard shall provide valuable insights to call center companies, to help them optimize their operations 
+									and improve customer satisfaction.
+								</p>
+								<p class="entry">
+									By meeting the requirements of EDNA's Call Centers, I was able to create a report that accurately explains critical issues that need to be 
+									addressed in order to continuously improve company performance. This demonstrates my ability to create informative and actionable reports that 
+									can drive positive change within call center organizations.
+								</p>
+								<br>
+
+								<h1 style="font-size: 1.5em;color:#425664">Dataset</h1>
+								<p class="entry"> 
+									The data set used for this dashboard was sourced from Enterprise DNA and included call center data from EDNA's Call Centers spanning from 2018 to 
+									2021. The dataset consisted of over 100,000 rows of data and was used to create a report that met the specific requirements of EDNA's Call Centers.
+								</p>
+								<p class="entry"> 
+									As part of those requirements, a column named "Call Abandoned" was deleted from the Calls data files, and a new column called "SLA Compliance" was 
+									created. This new column included a logical statement that determined whether a call was answered within the Service Level Agreement (SLA) or not, 
+									and the results were shown as "Within SLA" or "Outside SLA."
+								</p>  
+								<br>
+
+								<h1 style="font-size: 1.5em;color:#425664">Model Diagram</h1>
+								<p class="entry"> 
+									To design our data model, we utilized the Star Schema model and designated the Call Logs table as the Fact table, along with the Call Charge, Date, 
+									and Employees tables as the Dimension tables. The Fact and Dimension tables were linked using a One-to-Many Relationship based on common key fields. 
+									Overall, this model enabled us to generate actionable insights that could be used to improve the performance of call center companies.</p>
+								<img src="images/Call Center Model.png" style="display: block; width: 100%;"> 
+								<br>
+								<br>
+
+								<h1 style="font-size: 1.5em;color:#425664">Dashboard</h1>
+
+								<iframe title="Call Center - Performance Dashboard" width="800" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiZTAxMTM0NDEtNGRiOC00YzUwLWJkYmUtYm
+								RkZjEzMDYyZWVmIiwidCI6ImYzNGEzNWJkLWE2NWQtNDYwNS1iMGZhLWQyNTcxZjgzMWY1ZSIsImMiOjEwfQ%3D%3D&pageName=ReportSectionbbade90ddb4b1bebe325" frameborder="0" 
+								allowFullScreen="true" style="display: block; width: 100%"></iframe>
+								
+							</div>
+							<div>
+							<ul class="actions special">
+								<li><a href="Improving Call Center Performance with Power BI Dashboard.pdf" target="_blank" class="button primary">View Presentation</a></li>
+							</ul>
+							</div>	
+						</section>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+				
+
+	</body>
+</html>
